@@ -35,7 +35,6 @@ public class DrawableManager {
 //		Log.d(this.getClass().getSimpleName(), "clear image hashmap");
 	}
 
-
 	public Drawable fetchDrawableOnThread(final String urlString,final AssetManager assetManager,
 			final ImageCallback imageCallback) {
 //		if (drawableMap == null) {
