@@ -36,7 +36,7 @@ public class DrawableManager {
 	}
 
 
-	public Drawable fetchDrawableOnThread(final String urlString,final AssetManager assetManager,
+	public void fetchDrawableOnThread(final String urlString,final AssetManager assetManager,
 			final ImageCallback imageCallback) {
 //		if (drawableMap == null) {
 //			drawableMap = new HashMap<String, Drawable>();
@@ -60,7 +60,7 @@ public class DrawableManager {
 			}
 		};
 		thread.start();
-		return null;
+//		return null;
 	}
 	
 
